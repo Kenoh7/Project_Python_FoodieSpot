@@ -28,11 +28,11 @@
   
   ![view](https://user-images.githubusercontent.com/97468788/172990599-f4867912-b3cd-4a2a-831f-15327d4ecbce.png)
 
-<h3> --> Food Page <-- </h3>
+<h3> --> Food Search Page <-- </h3>
   
   ![food](https://user-images.githubusercontent.com/97468788/172990701-ede365c1-1831-4070-a6ce-db4a6cd54e8d.png)
   
-<h3> --> Search Page <-- </h3>
+<h3> --> Results Page <-- </h3>
   
   ![food_search](https://user-images.githubusercontent.com/97468788/172990707-502976a0-eb7f-48c6-b2ef-978286a4ef66.png)
   
