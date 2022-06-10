@@ -11,7 +11,7 @@
 - Bootstrap
 - MySQL
 - Flask
-- Bycrpt
+- Bycrypt
 
 <br/>
 
