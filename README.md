@@ -18,26 +18,24 @@
 <h1 align="center"> Demo </h1>
 <h3> --> Login <-- </h3>
   
-  ![Login](https://user-images.githubusercontent.com/97468788/172990541-44074fd8-1072-4ff2-9b2d-bc431fdf9497.png)
+  ![Login](https://user-images.githubusercontent.com/97468788/172998393-0d6be61e-0799-4c97-b003-f20d2baee518.png)
 
 <h3> --> Home <-- </h3>
   
-  ![home](https://user-images.githubusercontent.com/97468788/172990557-708630fa-9764-4dc7-bb3e-99cc85e7e55a.png)
-
+  ![home](https://user-images.githubusercontent.com/97468788/172998400-87acb276-6782-42c7-94e3-c83b7ad6674e.png)
+  
 <h3> --> View Page <-- </h3>
   
-  ![view](https://user-images.githubusercontent.com/97468788/172990599-f4867912-b3cd-4a2a-831f-15327d4ecbce.png)
+  ![view](https://user-images.githubusercontent.com/97468788/172998405-e89c6c43-98fa-4b47-a682-34c540f67341.png)
 
 <h3> --> Food Search Page <-- </h3>
   
-  ![food](https://user-images.githubusercontent.com/97468788/172990701-ede365c1-1831-4070-a6ce-db4a6cd54e8d.png)
+  ![food](https://user-images.githubusercontent.com/97468788/172998407-743ee134-15db-4662-b21e-a41d73fa917e.png)
   
 <h3> --> Results Page <-- </h3>
   
-  ![food_search](https://user-images.githubusercontent.com/97468788/172990707-502976a0-eb7f-48c6-b2ef-978286a4ef66.png)
-  
+  ![food_search](https://user-images.githubusercontent.com/97468788/172998411-eb307fc5-19f0-4323-be13-e0124b7d160f.png)
+
 <h3> --> Food View Page <-- </h3>
   
-  ![food_view](https://user-images.githubusercontent.com/97468788/172990718-f553515f-2bc4-4794-aa8b-48cb67fda181.png)
-
-  
+![food_view](https://user-images.githubusercontent.com/97468788/172998433-6ac99d92-ab1b-46e8-81ab-1e3e896dcb8b.png)
