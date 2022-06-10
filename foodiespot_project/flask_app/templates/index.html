@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    
+    <title>Login_Registration</title>
+</head>
+<body>
+    <header class="d-flex justify-content-between border-bottom m-2 p-2">
+        <h2> FoodieSpot</h2>
+        <h2>Login / Registration</h2>
+        </div>
+    </header>
+    <h2 class="text-center p-2 m-2">Join the FoodieSpot community, Please login or Register!!</h2>
+    <div class="container d-flex justify-content-around">
+        <div class="box border p-5 w-25">
+            <form action="/register" method="POST" class="d-flex flex-column gap-2">
+                <h2>Register</h2>
+                <label for="first_name" class="row form-control-sm">First Name:</label>
+                <input type="text" name="first_name" id="first_name" class="row form-control-sm">
+                <label for="last_name" class="row form-control-sm">Last Name:</label>
+                <input type="text" name="last_name" id="last_name" class="row form-control-sm">
+                <label for="email" class="row form-control-sm">Email:</label>
+                <input type="text" name="email" id="email" class="row form-control-sm">
+                <label for="password" class="row form-control-sm">Password:</label>
+                <input type="password" name="password" id="password" class="row form-control-sm">
+                <label for="confirm" class="row form-control-sm">Confirm Password:</label>
+                <input type="password" name="confirm" id="confirm" class="row form-control-sm">
+                <input type="submit" value="Register" class="btn-primary btn-sm"></input>
+                <div class="flash bg-danger text-white">
+                    {% with messages = get_flashed_messages(category_filter=['valid']) %}
+                        {% if messages %}
+                            {% for message in messages %}
+                                <p>{{message}}</p>
+                            {% endfor %}
+                        {% endif %}
+                    {% endwith %}
+                </div>
+            </form>
+        </div>
+        <div class="box d-flex border p-5 w-25 align-items-center">
+            <form action="/login" method="POST"class="d-flex flex-column gap-2 ">
+                <h2>Login</h2>
+                <label for="email" class="row form-control-sm">Email:</label>
+                <input type="text" name="email" id="email" class="row form-control-sm">
+                <label for="password" class="row form-control-sm">Password:</label>
+                <input type="password" name="password" id="password" class="row form-control-sm">
+                <input type="submit" value="Login" class="btn-primary btn-sm"></input>
+                <div class="flash bg-danger text-white">
+                    {% with messages = get_flashed_messages(category_filter=['login']) %}
+                        {% if messages %}
+                            {% for message in messages %}
+                                <p>{{message}}</p>
+                            {% endfor %}
+                        {% endif %}
+                    {% endwith %}
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
